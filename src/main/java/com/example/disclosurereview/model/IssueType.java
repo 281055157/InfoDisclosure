@@ -1,0 +1,14 @@
+package com.example.disclosurereview.model;
+
+/** 问题类型（规则与模型共用该枚举，模型输出校验时只接受这些值） */
+public enum IssueType {
+    CONTENT_PRODUCT_CODE_CONFLICT,
+    CONTENT_PRODUCT_NAME_CONFLICT,
+    CONTENT_LOGIC_CONFLICT,
+    DECLARED_PRODUCT_NOT_FOUND,
+    DECLARED_TYPE_MISMATCH,
+    POSSIBLE_TEMPLATE_RESIDUE,
+    PRODUCT_NAME_VARIANT,
+    PRODUCT_REFERENCE,
+    UNKNOWN_ISSUE
+}

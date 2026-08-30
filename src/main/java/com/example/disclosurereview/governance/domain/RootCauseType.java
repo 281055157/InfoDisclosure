@@ -1,0 +1,6 @@
+package com.example.disclosurereview.governance.domain;
+
+public enum RootCauseType {
+    RULE_SCOPE, RULE_CONFIG, RULE_EXECUTOR, RULE_EXCEPTION, PRODUCT_DATA,
+    DOCUMENT_PARSING, LLM_POLICY, HUMAN_INCONSISTENCY, INSUFFICIENT_EVIDENCE, NO_ACTION
+}

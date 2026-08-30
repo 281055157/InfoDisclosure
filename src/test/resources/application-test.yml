@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:disclosure_review_test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  flyway:
+    enabled: true
+    placeholder-replacement: false
+  rabbitmq:
+    listener:
+      simple:
+        auto-startup: false
+      direct:
+        auto-startup: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+review:
+  rabbitmq:
+    stage-queue: review.task.stage.queue
+    pending-publish-enabled: false
+feedback-governance:
+  enabled: false
+  backtest:
+    llm-enabled: false
+  rabbitmq:
+    pending-publish-enabled: false

@@ -1,0 +1,185 @@
+请审核以下信息披露附件文本。
+
+文件信息：
+
+原始文件名：
+{{fileName}}
+
+文件类别：
+{{documentCategory}}
+
+声明产品代码：
+{{declaredProductCode}}
+
+声明文件类型：
+{{declaredDocumentType}}
+
+参数表B9值：
+{{b9Value}}
+
+当前声明目标产品：
+{{targetProductMasterData}}
+
+产品母子或份额关系：
+{{productFamilyData}}
+
+目标机构名称：
+{{targetBankNames}}
+
+正文候选文件类型：
+{{candidateDocumentType}}
+
+当前文件类型专用审核策略：
+{{documentTypePolicy}}
+
+允许的候选文件类型：
+{{allowedDocumentTypes}}
+
+规则提取出的全部产品代码：
+{{allExtractedProductCodes}}
+
+规则提取出的全部产品名称：
+{{allExtractedProductNames}}
+
+正文逻辑一致性审核要求：
+请检查正文内部是否存在编号-名称映射错误、枚举项重复或缺失、等级顺序矛盾、数字/比例前后不一致、条件与结论冲突、表格与说明不一致等问题。只有同一规则或定义范围内能够由正文证据支持的矛盾，才作为逻辑问题返回。
+
+可能的表格记录：
+{{possibleTableRows}}
+
+兼容字段提示：
+旧接口仍保留 mainProductCode、mainProductName、otherProductReferences。请尽量同时返回新字段 targetProductAssessment、documentScope、targetProductRows、productOccurrences、agencyAssessment。
+
+当前文件正文：
+
+{{documentText}}
+
+请严格按照以下JSON结构返回：
+
+{
+  "documentScope": "MULTI_PRODUCT",
+  "mainProductCode": {
+    "value": "",
+    "confidence": 0.0,
+    "evidence": [
+      {
+        "pageNumber": 1,
+        "text": ""
+      }
+    ]
+  },
+  "mainProductName": {
+    "value": "",
+    "confidence": 0.0,
+    "evidence": [
+      {
+        "pageNumber": 1,
+        "text": ""
+      }
+    ]
+  },
+  "candidateDocumentType": {
+    "value": "",
+    "confidence": 0.0,
+    "reason": "",
+    "evidence": [
+      {
+        "pageNumber": 1,
+        "text": ""
+      }
+    ]
+  },
+  "targetProductAssessment": {
+    "decision": "CONTAINED",
+    "productIdentityDecision": "PRODUCT_CONTAINED",
+    "businessAcceptanceDecision": "ACCEPTABLE",
+    "documentScope": "MULTI_PRODUCT",
+    "matchBases": [
+      "PRODUCT_CODE_IN_TABLE",
+      "TABLE_ROW_EVIDENCE"
+    ],
+    "declaredProductCode": "",
+    "matchedProductCode": "",
+    "matchedProductName": "",
+    "matchedProductSeries": "",
+    "matchedInstitution": "",
+    "confidence": 0.0,
+    "explanation": "",
+    "manualReviewSuggestion": "",
+    "evidence": [
+      {
+        "pageNumber": 1,
+        "text": ""
+      }
+    ]
+  },
+  "targetProductRows": [
+    {
+      "productName": "",
+      "registrationCode": "",
+      "productCode": "",
+      "salesCode": "",
+      "valuationDate": "",
+      "unitNav": "",
+      "accumulatedNav": "",
+      "pageNumber": 1,
+      "evidenceText": "",
+      "confidence": 0.0
+    }
+  ],
+  "productOccurrences": [
+    {
+      "productCode": "",
+      "productName": "",
+      "role": "TARGET_PRODUCT",
+      "pageNumber": 1,
+      "evidenceText": "",
+      "confidence": 0.0
+    }
+  ],
+  "agencyAssessment": {
+    "isDistributionAgreement": false,
+    "targetBankIsDistributor": false,
+    "institutionName": "",
+    "role": "",
+    "confidence": 0.0,
+    "evidence": [
+      {
+        "pageNumber": 1,
+        "text": ""
+      }
+    ]
+  },
+  "otherProductReferences": [
+    {
+      "productCode": "",
+      "productName": "",
+      "pageNumber": 1,
+      "text": "",
+      "assessment": "PRODUCT_REFERENCE",
+      "confidence": 0.0
+    }
+  ],
+  "issues": [
+    {
+      "issueType": "CONTENT_LOGIC_CONFLICT",
+      "severity": "HIGH",
+      "confidence": 0.0,
+      "pageNumber": 1,
+      "evidenceText": "",
+      "explanation": "",
+      "suggestion": ""
+    }
+  ],
+  "summary": "",
+  "manualReviewSuggestion": ""
+}
+
+附加要求：
+
+1. confidence必须位于0到1之间。
+2. evidence中的text和evidenceText必须直接来自正文。
+3. 没有发现问题时issues返回空数组。
+4. 没有其他产品引用时otherProductReferences返回空数组。
+5. 无法确认字段时value填写UNKNOWN。
+6. 不得在JSON外输出任何内容。

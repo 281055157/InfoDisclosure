@@ -1,0 +1,183 @@
+[
+  {
+    "productCode": "QQGPJUSDRKN",
+    "productName": "示例理财甲全球配置高评级美元日日开",
+    "aliases": [
+      "全球配置高评级美元日日开",
+      "示例理财甲全球配置高评级美元日日开N类份额",
+      "示例理财甲全球配置高评级美元日日开N份额"
+    ],
+    "managerName": "示例理财管理机构甲",
+    "issuerName": "示例理财管理机构甲",
+    "parentProductCode": "QQGPJUSDRK",
+    "shareCodes": [
+      "QQGPJUSDRKN"
+    ],
+    "codeAliases": [
+      "QQGPJUSDRK"
+    ],
+    "seriesNames": [
+      "示例理财甲全球配置高评级美元日日开"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "SXYC5",
+    "productName": "示例理财乙琮善玉泉升鑫赢C-5号人民币理财产品",
+    "aliases": [
+      "示例理财乙琮善玉泉升鑫赢C-5号",
+      "琮善玉泉升鑫赢C-5号",
+      "玉泉升鑫赢C-5号"
+    ],
+    "managerName": "示例理财管理机构乙",
+    "issuerName": "示例理财管理机构乙",
+    "shareCodes": [
+      "SXYC5",
+      "SXYC5I"
+    ],
+    "seriesNames": [
+      "示例理财乙琮善玉泉升鑫赢C-5号"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司",
+      "示例理财管理机构乙"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYFCG0192A",
+    "productName": "示例理财乙琮简富春199号理财产品",
+    "aliases": [
+      "示例理财乙琮简富春199号",
+      "示例理财乙琮简富春199号理财产品A份额",
+      "琮简富春199号理财产品A份额",
+      "琮简富春199号"
+    ],
+    "managerName": "示例理财管理机构乙",
+    "issuerName": "示例理财管理机构乙",
+    "parentProductCode": "ZYFCG0192",
+    "shareCodes": [
+      "ZYFCG0192A",
+      "ZYFCG0192B",
+      "ZYFCG0192C",
+      "ZYFCG0192H"
+    ],
+    "codeAliases": [
+      "ZYFCG01920"
+    ],
+    "seriesNames": [
+      "示例理财乙琮简富春199号"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司",
+      "示例机构A",
+      "示例机构A股份有限公司"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYFCG0196A",
+    "productName": "示例理财乙琮简富春203号理财产品",
+    "aliases": [
+      "示例理财乙琮简富春203号",
+      "示例理财乙琮简富春203号理财产品A份额",
+      "琮简富春203号理财产品A份额",
+      "琮简富春203号"
+    ],
+    "managerName": "示例理财管理机构乙",
+    "issuerName": "示例理财管理机构乙",
+    "parentProductCode": "ZYFCG0196",
+    "shareCodes": [
+      "ZYFCG0196A",
+      "ZYFCG0196B",
+      "ZYFCG0196C",
+      "ZYFCG0196D",
+      "ZYFCG0196H"
+    ],
+    "codeAliases": [
+      "ZYFCG01960"
+    ],
+    "seriesNames": [
+      "示例理财乙琮简富春203号"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYJYG0053A",
+    "productName": "示例理财乙琮融九曜添利180天持有6号行业精选增强理财产品",
+    "aliases": [
+      "示例理财乙琮融九曜添利180天持有6号",
+      "示例理财乙琮融九曜添利180天持有6号行业精选增强理财产品A份额",
+      "琮融九曜添利180天持有6号行业精选增强",
+      "九曜添利180天持有6号"
+    ],
+    "managerName": "示例理财管理机构乙",
+    "issuerName": "示例理财管理机构乙",
+    "parentProductCode": "ZYJYG0053",
+    "shareCodes": [
+      "ZYJYG0053A"
+    ],
+    "codeAliases": [
+      "ZYJYG00530"
+    ],
+    "seriesNames": [
+      "示例理财乙琮融九曜添利180天持有6号"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYYJG00010",
+    "productName": "示例理财乙琮简涌金30天持有1号理财产品",
+    "aliases": [
+      "示例理财乙琮简涌金30天持有1号",
+      "示例理财乙琮简涌金30天持有1号理财产品A份额",
+      "琮简涌金30天持有1号",
+      "涌金30天持有1号"
+    ],
+    "managerName": "示例理财管理机构乙",
+    "issuerName": "示例理财管理机构乙",
+    "shareCodes": [
+      "ZYYJG00010",
+      "ZYYJG0001E",
+      "ZYYJG0001I",
+      "ZYYJG0001Z"
+    ],
+    "seriesNames": [
+      "示例理财乙琮简涌金30天持有1号"
+    ],
+    "distributorNames": [
+      "示例机构",
+      "示例机构股份有限公司",
+      "示例机构B",
+      "示例机构B股份有限公司",
+      "示例理财管理机构乙"
+    ],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYBSG0105A",
+    "productName": "示例理财乙琮简宝石60天持有1号理财产品",
+    "aliases": [],
+    "productType": "理财产品"
+  },
+  {
+    "productCode": "ZYFCG00440",
+    "productName": "示例理财乙琮简富春50号理财产品",
+    "aliases": [],
+    "productType": "理财产品"
+  }
+]

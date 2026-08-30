@@ -1,0 +1,20 @@
+package com.example.disclosurereview.model;
+
+/** 持久化审核任务状态。 */
+public enum ReviewTaskStatus {
+    CREATED,
+    FILE_STORED,
+    PARSING,
+    RULE_REVIEWING,
+    LLM_REVIEWING,
+    EVIDENCE_VERIFYING,
+    RESULT_MERGING,
+    WAITING_MANUAL_REVIEW,
+    MANUAL_APPROVED,
+    MANUAL_APPROVED_WITH_WARNING,
+    MANUAL_RETURNED,
+    MANUAL_REJECTED,
+    PARTIAL_SUCCESS,
+    FAILED,
+    CANCELLED
+}

@@ -1,0 +1,46 @@
+# Java / Maven
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# Node / frontend
+node_modules/
+**/node_modules/
+frontend/test-results/
+frontend/playwright-report/
+src/main/resources/static/
+
+# Generated frontend assets
+**/dist/
+**/.vite/
+
+# Local runtime data and configuration
+data/
+logs/
+*.log
+.env
+.env.*
+*.env
+application-local.*
+application-secret.*
+src/main/resources/application*.yml
+src/main/resources/application*.yaml
+src/main/resources/application*.properties
+
+# Credentials and key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
