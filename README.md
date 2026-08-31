@@ -34,7 +34,7 @@ github-core/
 │  ├─ main/resources/prompts/             # 审核与反馈治理提示词模板
 │  └─ main/resources/products.json        # 不含真实业务数据的通用产品库示例
 ├─ src/test/java/                         # 后端单元测试与集成测试
-├─ src/test/resources/                    # 测试配置和 PDF 生成字体夹具
+├─ src/test/resources/                    # 测试配置和 PDF 生成字体
 └─ frontend/
    ├─ src/                                # Vue 页面、组件和 API 调用
    ├─ tests/                              # Playwright 自动化测试
